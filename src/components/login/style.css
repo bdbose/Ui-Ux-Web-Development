@@ -1,0 +1,139 @@
+.page-div {
+	display: flex;
+}
+.login {
+	width: 50vw;
+}
+.landing {
+	width: 50vw;
+	min-height: 100vh;
+	align-content: center;
+	align-items: center;
+	background-color: #4499f6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.landing img {
+	width: 60%;
+	margin-bottom: 50px;
+	height: 300px;
+}
+.landing ul {
+	color: white;
+	margin: 0;
+	font-weight: 600;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.landing li {
+	padding: 5px;
+}
+.title {
+	font-size: 30px;
+	font-family: system-ui, sans-serif;
+	font-weight: 800;
+	margin-left: 20px;
+}
+form {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.form-header {
+	margin-top: 50px;
+	font-size: 45px;
+	font-weight: 800;
+}
+.form-header-sub {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.label {
+	text-align: left;
+	display: block;
+	margin-top: 30px;
+	color: grey;
+	font-size: 18px;
+	font-weight: 500;
+}
+form input {
+	padding: 10px 0;
+	padding-left: 10px;
+	width: 100%;
+	border-radius: 10px;
+	font-size: 20px;
+	background-color: #e7eef6;
+	border: 0;
+	font-weight: 550;
+}
+.label-sub {
+	text-align: left;
+	display: block;
+	color: grey;
+	font-size: 16px;
+	font-weight: 500;
+}
+form button {
+	background-color: #ff015b;
+	box-shadow: 0 5px 15px 7px lightgray;
+	color: white;
+	border: 0;
+	font-size: 20px;
+	font-weight: 550;
+	margin-top: 50px;
+	border-radius: 15px;
+	padding: 15px 60px;
+	cursor: pointer;
+	outline: none;
+}
+form button:hover {
+	background-color: #ff015aa8;
+}
+.label-signin {
+	display: block;
+	margin-top: 10px;
+	color: grey;
+	font-size: 18px;
+	font-weight: 500;
+}
+.alt {
+	padding-top: 30px;
+	color: grey;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid lightgrey;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+}
+.alt span {
+	background: #fff;
+	padding: 0 10px;
+}
+.goofb {
+	display: flex;
+	justify-content: center;
+}
+.goofb img {
+	border: 1px solid lightgray;
+	padding: 20px 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 20px;
+}
+@media (max-width: 800px) {
+	.landing {
+		display: none;
+	}
+	form {
+		width: 70%;
+		margin: auto;
+	}
+	.login {
+		width: 100%;
+	}
+}
